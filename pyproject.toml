@@ -1,0 +1,18 @@
+[project]
+name = "generative-ai"
+version = "0.1.0"
+description = "Repo is going to be used to practice different Generative AI implementations"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "ollama>=0.4.7",
+    "openai>=1.66.3",
+    "pre-commit>=4.1.0",
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.10",
+]
